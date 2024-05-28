@@ -8,7 +8,7 @@ public class gurutest extends BaseTest {
  LP.Login_Details(prop.getProperty("userid"), prop.getProperty("password"));
  
 }
-
+//Test commit changes
 @Test(priority=1)
 void NewCustomer() {
 	NC.NEW_Customer();
